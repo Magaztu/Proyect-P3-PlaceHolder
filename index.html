@@ -16,61 +16,68 @@
     .justificado{
         width: 45%;
     }
+    .fondo{
+        background-image: url(./recursos/fondo.jpg);
+        background-size: cover;
+    }
+
 </style>
 <body>
-    <div class="container">
-        <div class="centrar">
-            <div class="row justificado">
-                <div class="col-md-12">
-                    <br>
-                    <h4>Formulario de Búsqueda de Películas</h4>
-                    <form>
-                        <label for="nombre-peli" class="form-label espaciado">Título de la película</label>
-                        <input type="text" class="form-control" id="nombre-peli">
-                        <label for="categoria" class="form-label espaciado">Seleccionar categoría</label>
-                        <select name="categoria" id="categoria" class="form-select">
-                            <option value="op1">Acción</option>
-                            <option value="op2">Comedia</option>
-                            <option value="op3">Romance</option>
-                        </select>
-                        <button type="submit" class="btn btn-primary espaciado">Enviar</button>
-                    </form>
+    <div class="fondo">
+        <div class="container">
+            <div class="centrar">
+                <div class="row justificado bg-warning-subtle">
+                    <div class="col-md-12">
+                        <br>
+                        <h4>Formulario de Búsqueda de Películas</h4>
+                        <form>
+                            <label for="nombre-peli" class="form-label espaciado">Título de la película</label>
+                            <input type="text" class="form-control" id="nombre-peli">
+                            <label for="categoria" class="form-label espaciado">Seleccionar categoría</label>
+                            <select name="categoria" id="categoria" class="form-select">
+                                <option value="op1">Acción</option>
+                                <option value="op2">Comedia</option>
+                                <option value="op3">Romance</option>
+                            </select>
+                            <button type="submit" class="btn btn-primary espaciado">Enviar</button>
+                        </form>
+                    </div>
                 </div>
-            </div>
-            <div class="row justificado">
-                <div class="col-md-12">
-                    <br>
-                    <h4>Formulario de Registro de Cliente</h4>
-                    <form>
-                        <label for="nombre-customer" class="form-label espaciado">Nombre</label>
-                        <input type="text" class="form-control" id="nombre-customer">
-                        <label for="apellido-customer" class="form-label espaciado">Apellido</label>
-                        <input type="text" class="form-control" id="apellido-customer">
-                        <label for="mail-customer" class="form-label espaciado">Correo Electrónico</label>
-                        <input type="mail" class="form-control" id="mail-customer">
-                        <label for="direccion" class="form-label espaciado">Seleccionar categoría</label>
-                        <select name="direccion" id="direccion" class="form-select">
-                            <option value="op1">Alborada</option>
-                            <option value="op2">Sauces</option>
-                            <option value="op3">Los Ceibos</option>
-                        </select>
-                        <button type="submit" class="btn btn-warning espaciado">Enviar</button>
-                    </form>
+                <div class="row justificado bg-warning-subtle">
+                    <div class="col-md-12">
+                        <br>
+                        <h4>Formulario de Registro de Cliente</h4>
+                        <form>
+                            <label for="nombre-customer" class="form-label espaciado">Nombre</label>
+                            <input type="text" class="form-control" id="nombre-customer">
+                            <label for="apellido-customer" class="form-label espaciado">Apellido</label>
+                            <input type="text" class="form-control" id="apellido-customer">
+                            <label for="mail-customer" class="form-label espaciado">Correo Electrónico</label>
+                            <input type="mail" class="form-control" id="mail-customer">
+                            <label for="direccion" class="form-label espaciado">Seleccionar categoría</label>
+                            <select name="direccion" id="direccion" class="form-select">
+                                <option value="op1">Alborada</option>
+                                <option value="op2">Sauces</option>
+                                <option value="op3">Los Ceibos</option>
+                            </select>
+                            <button type="submit" class="btn btn-warning espaciado">Enviar</button>
+                        </form>
+                    </div>
                 </div>
-            </div>
-            <div class="row justificado">
-                <div class="col-md-12">
-                    <br>
-                    <h4>Consulta de Alquileres por Cliente</h4>
-                    <form>
-                        <label for="cliente" class="form-label espaciado">Seleccionar Cliente</label>
-                        <select name="cliente" id="cliente" class="form-select">
-                            <option value="op1">Rodrigo Espinoza</option>
-                            <option value="op2">María Valdez</option>
-                            <option value="op3">Juan Marcet</option>
-                        </select>
-                        <button type="submit" class="btn btn-success espaciado">Enviar</button>
-                    </form>
+                <div class="row justificado bg-warning-subtle">
+                    <div class="col-md-12">
+                        <br>
+                        <h4>Consulta de Alquileres por Cliente</h4>
+                        <form>
+                            <label for="cliente" class="form-label espaciado">Seleccionar Cliente</label>
+                            <select name="cliente" id="cliente" class="form-select">
+                                <option value="op1">Rodrigo Espinoza</option>
+                                <option value="op2">María Valdez</option>
+                                <option value="op3">Juan Marcet</option>
+                            </select>
+                            <button type="submit" class="btn btn-success espaciado">Enviar</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
