@@ -1,0 +1,29 @@
+.espaciado{
+    margin: 10px 0px;
+}
+.centrar{
+    place-items: center;
+    margin-top: 20%;
+}
+.justificado{
+    width: 50%;
+    border-radius: 20px;
+}
+.fondo{
+    background-image: url(./recursos/fondo.jpg);
+    background-size: cover;
+}
+.navegador{
+    place-self: center;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+    background-color: cornsilk;
+    border-radius: 20px;
+    padding: 5px;
+}
+.navegador a {
+    text-decoration: none;
+    font-style: italic;
+    color: darkblue;
+}
